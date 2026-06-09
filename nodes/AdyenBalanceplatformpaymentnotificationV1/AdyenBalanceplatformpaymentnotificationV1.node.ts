@@ -3,14 +3,14 @@ import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from '
 
 export class AdyenBalanceplatformpaymentnotificationV1 implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'adyen-balanceplatformpaymentnotification-v1',
+		displayName: 'Adyen Balanceplatformpaymentnotification V1',
 		name: 'N8nDevAdyenBalanceplatformpaymentnotificationV1',
 		icon: { light: 'file:./adyen-balanceplatformpaymentnotification-v1.svg', dark: 'file:./adyen-balanceplatformpaymentnotification-v1.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Payment webhooks are deprecated. Use the accounting webhooks instead',
-		defaults: { name: 'adyen-balanceplatformpaymentnotification-v1' },
+		description: 'Payment webhooks deprecated. Use accounting webhooks instead.',
+		defaults: { name: 'Adyen Balanceplatformpaymentnotification V1' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

@@ -8,7 +8,7 @@ import type {
 export class AdyenBalanceplatformpaymentnotificationV1Api implements ICredentialType {
 	name = 'N8nDevAdyenBalanceplatformpaymentnotificationV1Api';
 
-	displayName = 'adyen-balanceplatformpaymentnotification-v1 API';
+	displayName = 'Adyen Balanceplatformpaymentnotification V1 API';
 
 	icon: Icon = { light: 'file:../nodes/AdyenBalanceplatformpaymentnotificationV1/adyen-balanceplatformpaymentnotification-v1.svg', dark: 'file:../nodes/AdyenBalanceplatformpaymentnotificationV1/adyen-balanceplatformpaymentnotification-v1.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AdyenBalanceplatformpaymentnotificationV1Api implements ICredential
 			default: 'https://balanceplatform-api-test.adyen.com/btl/v1',
 			required: true,
 			placeholder: 'https://balanceplatform-api-test.adyen.com/btl/v1',
-			description: 'The base URL of your adyen-balanceplatformpaymentnotification-v1 API server',
+			description: 'The base URL of your Adyen Balanceplatformpaymentnotification V1 API server',
 		},
 		{
 			displayName: 'API Key',
